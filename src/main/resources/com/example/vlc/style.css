@@ -1,0 +1,24 @@
+.root{
+        -fx-background-color:#E3B778;
+}
+.label{
+    -fx-set-fill:blue;
+    -fx-fond-size:15px;
+    -fx-effect:drop shadow(gaussian,rgba(255,255,0.5),0,0,0,1);
+}
+.imageview:hoover{
+    -fx-stroke-width:2.0;
+}
+imageview{
+    -fx-stroke:#70c0e7;
+}
+.button:hoover{
+    -fx-background-color:linear-gradient(#61a2b1,#2A5058);
+
+}
+.slider{
+    -fx-background-color:linear-gradient(to right,#2D819D 100%,#969696 50%);
+    }
+    .video::webkit-media-controls-time-remaining-display{
+        -fx-color:f00;
+    }
